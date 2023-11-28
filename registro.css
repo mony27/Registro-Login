@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Alinear{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: -30px;
+  margin-top: -410px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  padding: 1px;
+  font-size: 50px;
+  
+}
+
+.form-signin {
+  width: 400px;
+  background: #43424c;
+  padding: 410px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #24303c;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 1;
+}
+.form-signin input[type="nombre"] {
+  width: 100%;
+  background: #4c5761;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-signin input[type="email"] {
+  background: #4c5761;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: -1px;
+  background-color: #ebecee;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  background: #4c5761;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.form-signin input[type="telefono"] {
+  margin-bottom: 100px;
+  width: 100%;
+  background: #4c5761;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.form-signin p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
